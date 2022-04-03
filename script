@@ -1,0 +1,25 @@
+//MalBpoint
+//Author:0xM3HS1N
+//Description:When analyzing a malware sample I tend to put breakpoint on these functions some of it for anti-debugging, unpacking, injections or other functionalities
+
+log "---------------------MalBPoint---------------------"
+
+hide
+bp "VirtualAlloc"
+bp "CreateProcessW"
+bp "CreateProcessInternalW"
+bp "WinExec"
+bp "ShellExecuteExW"
+bp "ShellExecuteW"
+bp "NtQueryInformationProcess"
+bp "CreateThread"
+bp "WriteProcessMemory"
+bp "ReadFile"
+bp "ReadFileEx"
+bp "WriteFile"
+bp "WriteFileEx"
+bp "RtlDecompressBuffer"
+bp "CryptDecrypt"
+bp "OutputDebugStringW"
+bp "SwitchToThread"
+bp "OpenProcess"
