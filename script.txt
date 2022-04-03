@@ -1,6 +1,5 @@
 //MalBpoint
 //Author:0xM3HS1N
-//Description:When analyzing a malware sample I tend to put breakpoint on these functions some of it for anti-debugging, unpacking, injections or other functionalities
 
 log "---------------------MalBPoint---------------------"
 
