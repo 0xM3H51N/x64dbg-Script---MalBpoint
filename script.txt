@@ -22,3 +22,5 @@ bp "CryptDecrypt"
 bp "OutputDebugStringW"
 bp "SwitchToThread"
 bp "OpenProcess"
+bp "IsDebuggerPresent"
+
